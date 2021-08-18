@@ -9,7 +9,7 @@ computer_turn = random.choice(["rock", "scissors", "paper"])
 welcome_message = "Welcome to Rock, Scissor, Paper!!!!"
 print(welcome_message)
 print("player 1 enter your choice (rock, paper or scissors)")
-player_1_turn = input()
+player_1_turn = input().lower()
 print("Computer choice: " + computer_turn)
 
 
